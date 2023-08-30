@@ -6,19 +6,19 @@ import { SiProgress, SiAntdesign } from "react-icons/si";
 export const featuresData = [
   {
     id: 1,
-    title: "Business Stratagy",
+    title: "Mathematics",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "App Development",
+    title: "Frontend Development",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
   {
     id: 3,
     icon: <SiProgress />,
-    title: "SEO Optimisation",
+    title: "Backend Development",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
   {
@@ -30,7 +30,7 @@ export const featuresData = [
   {
     id: 5,
     icon: <SiAntdesign />,
-    title: "UX Design",
+    title: "Web Design",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
   {
