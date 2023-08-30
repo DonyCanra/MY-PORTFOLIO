@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+import { FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
@@ -44,8 +43,11 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
+                  Dony Canra
+                </p>
+                <p className="text-sm text-gray-400 mt-2">
+                  Dony Canra
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Earum soluta perspiciatis molestias enim cum repellat, magnam
                   exercitationem distinctio aliquid nam.
@@ -76,15 +78,21 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                <a href={"https://www.instagram.com/donycanra"} target="_blank" rel="noreferrer noopener">
+            <span className="bannerIcon">
+              <FaInstagram />
+            </span>
+          </a>
+          <a href={"https://github.com/DonyCanra"} target="_blank" rel="noreferrer noopener">
+            <span className="bannerIcon">
+              <FaGithub />
+            </span>
+          </a>
+          <a href={"https://www.linkedin.com/in/donicanrarofikar"} target="_blank" rel="noreferrer noopener">
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
                 </div>
               </div>
               <span

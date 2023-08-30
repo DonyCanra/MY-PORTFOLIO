@@ -47,7 +47,7 @@ const Projects = () => {
           src={projectOne}
         />
         <ProjectsCard
-          title="Izzidok"
+          title="Store Book Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
